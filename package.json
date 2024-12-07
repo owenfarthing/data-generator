@@ -1,0 +1,13 @@
+{
+	"name": "data-generator",
+	"private": true,
+	"version": "1.0.0",
+	"scripts": {
+		"install:aws": "npm install --legacy-peer-deps"
+	},
+	"workspaces": [
+		"./api",
+		"./ui",
+		"./common"
+	]
+}
